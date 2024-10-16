@@ -20,7 +20,7 @@ percentage_moon_earth = (weight_moon / weight_earth) * 100
 # Finally, convert the percentage to an integer.
 # If I had used the int() function to for integer conversion, the output would have been 16, because int simply
 # truncates decimal without rounding.
-# I used the round() function for integer conversion because it rounds the floaitng point numder to the
+# I used the round() function for integer conversion because it rounds the floating point number to the
 # nearest whole number, which is 17 in this case.
 
 percentage_moon_earth_int = round(percentage_moon_earth)

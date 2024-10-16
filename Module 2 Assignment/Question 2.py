@@ -1,4 +1,4 @@
-# The initial values of length and widthen in the question.
+# The initial values of length and width in the question.
 
 length = 10.0
 width = 7
@@ -15,8 +15,8 @@ expr4 = 1 + 4 * 5
 # I decided to use the __name__ property of the type function at the end of the type function
 # that then shows the proper English name of the type
 # For instance, instead of Type: <class 'int'>, it shows Type: int
-# I've used the f string to avoid manual concatenetion and formatted each line in the group
-# to be in a new line by using the newline characyer "\n"
+# I've used the f string to avoid manual concatenation and formatted each line in the group
+# to be in a new line by using the newline character "\n"
 
 # The // operator is used for floor division (integer division).
 # It divides width by 2 and returns the largest whole number less than or equal to the result.
