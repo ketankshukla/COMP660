@@ -3,3 +3,6 @@
 
 # Ignore the virtual environment folder
 .venv/
+
+#Ignore the Course Materials folder
+Course Materials/
