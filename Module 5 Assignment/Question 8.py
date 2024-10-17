@@ -7,10 +7,10 @@ annual_rate = 0.0185 #1.85%
 monthly_rate = annual_rate / 12
 
 # we have been asked to use the monthly rate for all the questions
-double_time_months = math.log(2) /math.log(1 + monthly_rate)
+double_time_months = math.log(2) /math.log(1 + monthly_rate) / 12
 
 print("\nAnswer to Question 8a")
-print(f"Time in years it would take to double the money at 1.85 APR compounded monthly is: {round(double_time_months,1) / 12} years")
+print(f"Time in years it would take to double the money at 1.85 APR compounded monthly is: {round(double_time_months,1)} years")
 
 # For the value of 1.85% APR, the answer is 37.5 years or 450 months, which is pretty close to the graph.
 
