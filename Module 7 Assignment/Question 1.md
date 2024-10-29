@@ -30,16 +30,16 @@ Uses string formatting to center-align the numbers
 
 Format Specifications:
 
-1 - Total width: 8 characters
-2 - Center alignment
-3 - 6 decimal places for floating-point numbers
-4 - Extra spaces added equally on both sides
+- Total width: 8 characters
+- Center alignment
+- 6 decimal places for floating-point numbers
+- Extra spaces added equally on both sides
 
 Explanation of {tau:^8.6f}:
 
-^: Centers the value in the available space
-8: Total field width of 8 characters
-.6f: Shows 6 decimal places for floating-point number
+- ^: Centers the value in the available space
+- 8: Total field width of 8 characters
+- .6f: Shows 6 decimal places for floating-point number
 
 Same formatting applies to {half_tau:^8.6f}
 
