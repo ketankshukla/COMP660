@@ -6,21 +6,22 @@ def calculate_rms_velocity(temp_celsius):
     if temp_celsius < -273.15:
         raise ValueError("Temperature cannot be below absolute zero (-273.15 Celsius)")
 
-    # Set precision for decimal calculations
-    getcontext().prec = 10
+    # Set precision for decimal calculations for answer to come to 6 significant figures
+    # for example 435.321 m/s
+    getcontext().prec = 6
 
     try:
         # Convert constants to Decimal objects
-        R = Decimal('8.3145')  # Gas constant in (kg·m2/sec2)/K·mol
-        M = Decimal('3.2E-2')  # Molar mass of O2 in kg/mol
+        gas_constant_r = Decimal('8.3145')  # Gas constant in (kg·m2/sec2)/K·mol
+        molar_mass_m = Decimal('3.2E-2')  # Molar mass of O2 in kg/mol
 
         # Convert temperature to Kelvin
-        T = Decimal(str(temp_celsius + 273))
+        kelvin_temp_t = Decimal(str(temp_celsius + 273))
 
         # Calculate μrms = sqrt(3RT/M)
-        rt_product = R * T
+        rt_product = gas_constant_r * kelvin_temp_t
         three_rt = Decimal('3') * rt_product
-        fraction = three_rt / M
+        fraction = three_rt / molar_mass_m
         rms_velocity = fraction.sqrt()
 
         # Create a pattern for formatting (3 decimal places)
