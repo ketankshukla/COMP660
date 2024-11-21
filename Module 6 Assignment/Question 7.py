@@ -1,3 +1,14 @@
+"""
+Famous People Checker Module
+
+This module provides functionality to check if a given person's name appears in a predefined
+list of 20 famous individuals from history. It includes data validation, name normalization,
+and case-insensitive matching.
+
+Author: [Your Name]
+Date: [Current Date]
+"""
+
 famous_list = '''\
 Marilyn Monroe (1926 – 1962) American actress, singer, model
 Abraham Lincoln (1809 – 1865) US President during American civil war
@@ -22,6 +33,24 @@ Pope Francis (1936 – ) First pope from the Americas
 '''
 
 def check_famous_individual(name):
+    """
+    Check if a given name appears in the list of famous individuals.
+    
+    This function performs the following operations:
+    1. Validates the input name for emptiness and numeric characters
+    2. Normalizes the name by removing special characters and extra whitespace
+    3. Performs a case-insensitive search in the famous_list
+    
+    Args:
+        name (str): The name of the person to check
+        
+    Returns:
+        str: A message indicating whether the person is in the Top 20 list
+        
+    Raises:
+        ValueError: If the name is empty, contains only whitespace, contains numbers,
+                  or contains no valid characters after cleaning
+    """
     # Input validation
     if not name or name.isspace():
         raise ValueError("Name cannot be empty or just whitespace")
@@ -45,6 +74,13 @@ def check_famous_individual(name):
         return f"Sorry, {name.title()} did not make the Top 20 cut!"
 
 # Main program loop
+"""
+Main execution block that:
+1. Continuously prompts for user input
+2. Processes the input using check_famous_individual()
+3. Handles various exceptions that might occur
+4. Provides a way to exit the program
+"""
 while True:
     try:
         famous_person = input("\nPlease enter the name of the famous individual (or 'quit' to exit): ")
