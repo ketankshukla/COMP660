@@ -5,16 +5,6 @@
 ## Overview 🎯
 This module focuses on input/output operations and basic mathematical calculations in Python. Students learn to handle user input, perform calculations, and format output appropriately.
 
-## Contents 📋
-- [Learning Objectives](#learning-objectives)
-- [Assignments](#assignments)
-  * [Question 1: User Input and Output](#question-1-user-input-and-output)
-  * [Question 2: Expressions and Types](#question-2-expressions-and-types)
-  * [Question 3: Weight Conversion Calculator](#question-3-weight-conversion-calculator)
-- [Implementation Details](#implementation-details)
-- [Best Practices](#best-practices)
-- [Common Issues and Solutions](#common-issues-and-solutions)
-
 ## Learning Objectives 🎓
 - Handle user input effectively
 - Perform basic mathematical operations

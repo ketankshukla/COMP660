@@ -5,14 +5,6 @@
 ## Overview 🎯
 Module 4 focuses on implementing physics calculations and data processing algorithms in Python. The assignments demonstrate practical applications of mathematical formulas, user input validation, and data manipulation techniques.
 
-## Contents 📋
-- [Assignments](#assignments)
-  * [Question 4: Final Velocity Calculator](#question-4-final-velocity-calculator)
-  * [Question 5: Elapsed Time Calculator](#question-5-elapsed-time-calculator)
-  * [Other Questions](#other-questions)
-- [Learning Objectives](#learning-objectives)
-- [Implementation Details](#implementation-details)
-
 ## Learning Objectives 🎓
 - Implement physics formulas in Python
 - Handle user input with proper validation

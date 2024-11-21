@@ -5,27 +5,12 @@
 ## Overview 🎯
 Module 5 focuses on functions, recursion, and mathematical computations in Python. The assignments cover recursive algorithms, lambda functions, and practical mathematical applications.
 
-## Contents 📋
-- [Assignments](#assignments)
-  * [Question 1: Function Concepts](#question-1-function-concepts)
-  * [Question 2: Factorial Calculator](#question-2-factorial-calculator)
-  * [Question 3: Sum of Integers](#question-3-sum-of-integers)
-  * [Question 4: String Reversal](#question-4-string-reversal)
-  * [Question 5: Lambda Functions](#question-5-lambda-functions)
-  * [Question 6: Circle Area Calculator](#question-6-circle-area-calculator)
-  * [Question 7: Advanced Functions](#question-7-advanced-functions)
-  * [Question 8: Complex Calculations](#question-8-complex-calculations)
-- [Learning Objectives](#learning-objectives)
-- [Implementation Details](#implementation-details)
-
 ## Learning Objectives 🎓
 - Understand and implement recursive functions
 - Work with lambda functions
 - Perform mathematical calculations
-- Handle user input and validation
-- Implement string manipulation
-- Apply geometric formulas
-- Create interactive programs
+- Handle edge cases and errors
+- Format output appropriately
 
 ## Assignments 📝
 
@@ -173,7 +158,13 @@ def area_circle(radius):
 - Input validation
 - Formatted output
 
-## Code Structure 📂
+### Question 7: Advanced Functions
+{{ ... }}
+
+### Question 8: Complex Calculations
+{{ ... }}
+
+## Code Structure 
 ```
 Module 5 Assignment/
 ├── Question 1.md       # Function concepts
@@ -186,7 +177,7 @@ Module 5 Assignment/
 └── Question 8.py       # Complex calculations
 ```
 
-## Best Practices 💡
+## Best Practices 
 1. Function Design
    - Clear parameter names
    - Comprehensive docstrings
@@ -205,7 +196,7 @@ Module 5 Assignment/
    - User-friendly messages
    - Graceful error recovery
 
-## Common Issues and Solutions ⚠️
+## Common Issues and Solutions 
 1. Recursion Depth
    ```python
    # Set recursion limit if needed
@@ -229,12 +220,12 @@ Module 5 Assignment/
    area = round(math.pi * radius**2, 2)
    ```
 
-## Related Resources 🔗
+## Related Resources 
 - [Python Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
 - [Recursion in Python](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
 - [Lambda Functions](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)
 
-## Notes 📌
+## Notes 
 - Recursion requires careful consideration of base cases
 - Lambda functions are best for simple operations
 - Mathematical calculations should handle edge cases

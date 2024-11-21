@@ -1,17 +1,9 @@
-# Module 3: Control Flow and Decision Making 📚
+# Module 3: Control Flow and Functions 📚
 
 [← Back to Main Documentation](../../README.md)
 
 ## Overview 🎯
 Module 3 introduces control flow concepts in Python, focusing on conditional statements, loops, and the pass statement. The assignments demonstrate practical applications of decision-making structures and string manipulation.
-
-## Contents 📋
-- [Assignments](#assignments)
-  * [Question 1: Control Flow Concepts](#question-1-control-flow-concepts)
-  * [Question 2: Pass Statement and String Processing](#question-2-pass-statement-and-string-processing)
-  * [Question 3: Temperature-Based Clothing Recommender](#question-3-temperature-based-clothing-recommender)
-- [Learning Objectives](#learning-objectives)
-- [Implementation Details](#implementation-details)
 
 ## Learning Objectives 🎓
 - Understand conditional statements (if, elif, else)

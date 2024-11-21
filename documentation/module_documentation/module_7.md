@@ -5,19 +5,6 @@
 ## Overview 🎯
 Module 7 focuses on number systems, mathematical constants, and scientific calculations in Python. Students learn to work with different number formats, implement scientific formulas, and handle precise calculations.
 
-## Contents 📋
-- [Learning Objectives](#learning-objectives)
-- [Assignments](#assignments)
-  * [Question 1: Mathematical Constants](#question-1-mathematical-constants)
-  * [Question 2: Integer Range Calculator](#question-2-integer-range-calculator)
-  * [Question 3: Root Mean Square Velocity](#question-3-root-mean-square-velocity)
-- [Implementation Details](#implementation-details)
-- [Best Practices](#best-practices)
-- [Common Issues and Solutions](#common-issues-and-solutions)
-- [Related Resources](#related-resources)
-- [Assessment Criteria](#assessment-criteria)
-- [Advanced Topics](#advanced-topics)
-
 ## Learning Objectives 🎓
 - Format mathematical constants
 - Calculate integer ranges

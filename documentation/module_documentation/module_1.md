@@ -5,15 +5,6 @@
 ## Overview 🎯
 Module 1 introduces fundamental Python programming concepts through a series of exercises focused on mathematical operations, variable assignments, and basic program execution. The module includes both theoretical questions and practical programming tasks.
 
-## Contents 📋
-- [Assignments](#assignments)
-  * [Question 1: Python Environment Setup](#question-1-python-environment-setup)
-  * [Question 2: Python Basics](#question-2-python-basics)
-  * [Question 3: Mathematical Operations](#question-3-mathematical-operations)
-  * [Question 4: Linear Equation Calculation](#question-4-linear-equation-calculation)
-- [Learning Objectives](#learning-objectives)
-- [Implementation Details](#implementation-details)
-
 ## Learning Objectives 🎓
 - Set up a Python development environment
 - Understand basic Python syntax and structure
