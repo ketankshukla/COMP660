@@ -22,14 +22,41 @@ Pope Francis (1936 – ) First pope from the Americas
 '''
 
 def check_famous_individual(name):
+    # Input validation
+    if not name or name.isspace():
+        raise ValueError("Name cannot be empty or just whitespace")
+    
+    if any(char.isdigit() for char in name):
+        raise ValueError("Name should not contain numbers")
+    
+    # Remove extra whitespace and special characters, keeping only letters and spaces
+    name = ''.join(char for char in name if char.isalpha() or char.isspace())
+    name = ' '.join(name.split())  # Normalize whitespace
+    
+    if not name:  # Check if name is empty after cleaning
+        raise ValueError("Name contains no valid characters")
+    
     name_normalized = name.lower()
     famous_list_normalized = famous_list.lower()
 
     if name_normalized in famous_list_normalized:
-        print(f"Yup, {name.title()} did make the Top 20 cut!")
+        return f"Yup, {name.title()} did make the Top 20 cut!"
     else:
-        print(f"Sorry, {name.title()} did not make the Top 20 cut!")
+        return f"Sorry, {name.title()} did not make the Top 20 cut!"
 
-famous_person = input("Please Enter the name of the famous individual: ")
-
-check_famous_individual(famous_person)
+# Main program loop
+while True:
+    try:
+        famous_person = input("\nPlease enter the name of the famous individual (or 'quit' to exit): ")
+        
+        if famous_person.lower() == 'quit':
+            print("Thank you for using the Famous People Checker!")
+            break
+            
+        result = check_famous_individual(famous_person)
+        print(result)
+        
+    except ValueError as e:
+        print(f"Error: {e}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
