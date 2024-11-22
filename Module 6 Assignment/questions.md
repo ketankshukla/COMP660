@@ -14,6 +14,11 @@ ascii_code = ord('A')
 print(ascii_code)  # Output: 65
 ```
 
+### Sample Output
+```
+65
+```
+
 The `ord()` function takes a single character as input and returns its corresponding ASCII (or Unicode) code.
 
 ---
@@ -43,6 +48,12 @@ mask = str[mask_position + 1:].rstrip()
 # Print the extracted information
 print(f"The IP Address is - {ip_address}")
 print(f"The Mask is - {mask}")
+```
+
+### Sample Output
+```
+The IP Address is - 127.0.0.1
+The Mask is - 255.0.0.0
 ```
 
 ### Explanation
@@ -103,6 +114,11 @@ for line in lines:
 print(f"Number of internet addresses: {ip_count}")
 ```
 
+### Sample Output
+```
+Number of internet addresses: 4
+```
+
 ### Part B: Counting Using String Method
 
 #### Question
@@ -122,6 +138,11 @@ inet addr :127.0.0.4 Mask:255.0.0.0
 occurrences = str.count('inet addr')
 
 print(f"Number of occurrences of 'inet addr': {occurrences}")
+```
+
+### Sample Output
+```
+Number of occurrences of 'inet addr': 4
 ```
 
 ---
@@ -157,8 +178,8 @@ print(add_html_tags('h2', 'A secondary header.'))
 print(add_html_tags('p', 'Some more text.'))
 ```
 
-### Output
-```html
+### Sample Output
+```
 <h1>My First Page</h1>
 <p>This is my first page.</p>
 <h2>A secondary header.</h2>
@@ -201,7 +222,18 @@ print(f"\nHi {first_name.title()} {last_name.title()}, welcome to my Python gree
 ```
 What is your first name? alison
 What is your last name? smith
+
 Hi Alison Smith, welcome to my Python greet application!
+```
+
+Example with error handling:
+```
+What is your first name? 
+Input cannot be blank. Please try again.
+What is your first name? john
+What is your last name? doe
+
+Hi John Doe, welcome to my Python greet application!
 ```
 
 ---
@@ -252,16 +284,26 @@ print(f"Abbreviated name is: {abbreviate_middle_name(full_name)}")
 ```
 
 ### Sample Output
+
+Example with one middle name:
 ```
 Enter your full name: Elvis Aaron Presley
 Abbreviated name is: Elvis A. Presley
+```
 
+Example with multiple middle names:
+```
 Enter your full name: John Ronald Reuel Tolkien
 Abbreviated name is: John R. R. Tolkien
 ```
 
----
+Example with no middle name:
+```
+Enter your full name: John Smith
+Abbreviated name is: John Smith
+```
 
+---
 ## Question 7: Famous People Checker
 
 ### Question
@@ -346,10 +388,29 @@ while True:
 ```
 
 ### Sample Output
-```
-Please enter the name of the famous individual: Albert Einstein
-Yup, Albert Einstein did make the Top 20 cut!
 
-Please enter the name of the famous individual: leonardo Da vinci
+Example with famous person:
+```
+Please enter the name of the famous individual (or 'quit' to exit): Albert Einstein
+Yup, Albert Einstein did make the Top 20 cut!
+```
+
+Example with non-famous person:
+```
+Please enter the name of the famous individual (or 'quit' to exit): Leonardo Da Vinci
 Sorry, Leonardo Da Vinci did not make the Top 20 cut!
 ```
+
+Example with invalid input:
+```
+Please enter the name of the famous individual (or 'quit' to exit): John123
+Error: Name should not contain numbers
+
+Please enter the name of the famous individual (or 'quit' to exit): 
+Error: Name cannot be empty or just whitespace
+```
+
+Example of quitting:
+```
+Please enter the name of the famous individual (or 'quit' to exit): quit
+Thank you for using the Famous People Checker!

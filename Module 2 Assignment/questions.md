@@ -14,6 +14,12 @@ name = input("Enter your first name: ")
 print(f"Welcome {name} to Comp 660!")
 ```
 
+### Sample Output
+```
+Enter your first name: John
+Welcome John to Comp 660!
+```
+
 ### Screenshot
 ![Question 1 Output](./Question%201%20Screenshot.png)
 
@@ -57,6 +63,25 @@ print(f"Expression: length / 2\nValue: {expr3}\nType: {type(expr3).__name__}\n")
 # This expression involves both addition and multiplication and according to PEMDAS rules,
 # multiplication is performed before addition.
 print(f"Expression: 1 + 4 * 5\nValue: {expr4}\nType: {type(expr4).__name__}\n")
+```
+
+### Sample Output
+```
+Expression: width // 2
+Value: 3
+Type: int
+
+Expression: length / 2.0
+Value: 5.0
+Type: float
+
+Expression: length / 2
+Value: 5.0
+Type: float
+
+Expression: 1 + 4 * 5
+Value: 21
+Type: int
 ```
 
 ### Screenshot
@@ -115,6 +140,16 @@ print(
 print(
     f"The percentage of the weight on the Moon in comparison to what is experienced on Earth as an integer is {percentage_moon_earth_int} %"
 )
+```
+
+### Sample Output
+```
+Please enter the mass in lb that you would like to convert to kg: 100
+The converted mass in kg is: 45.35923700000001
+Your weight on Earth is: 444.79568639000005 Newtons
+Your weight on the Moon is: 73.48196994000001 Newtons
+The percentage of the weight on the Moon in comparison to what is experienced on Earth: 16.520467836257308 %
+The percentage of the weight on the Moon in comparison to what is experienced on Earth as an integer is 17 %
 ```
 
 ### Screenshot

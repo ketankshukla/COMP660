@@ -44,7 +44,11 @@ The program demonstrates string formatting in Python with the following features
 
 ### Sample Output
 ```
+# Case 1: Standard Output
 The value of Tau is  6.283 , which is two times  3.142 .
+
+# Case 2: With More Decimals
+The value of Tau is 6.28319, which is two times 3.14159.
 ```
 
 ---
@@ -147,13 +151,28 @@ if __name__ == "__main__":
 
 ### Sample Output
 ```
+# Case 1: Small Number of Bytes
+Enter number of Bytes you would like to determine the signed range of (or 'x' to exit): 1
+1 Byte(s) integral type with 8 bits can encode 256 numbers.
+The signed range will be from -128 to 127
+
+# Case 2: Standard 4-Byte Integer
 Enter number of Bytes you would like to determine the signed range of (or 'x' to exit): 4
 4 Byte(s) integral type with 8 bits can encode 4,294,967,296 numbers.
 The signed range will be from -2,147,483,648 to 2,147,483,647
 
+# Case 3: Large Number (Scientific Notation)
 Enter number of Bytes you would like to determine the signed range of (or 'x' to exit): 12
 12 Byte(s) integral type with 8 bits can encode 7.92e+28 numbers.
 The signed range will be from -3.96e+28 to 3.96e+28
+
+# Case 4: Invalid Input
+Enter number of Bytes you would like to determine the signed range of (or 'x' to exit): abc
+Please enter a valid integer for the number of bytes.
+
+# Case 5: Exit Command
+Enter number of Bytes you would like to determine the signed range of (or 'x' to exit): x
+Exiting program...
 ```
 
 ---
@@ -276,12 +295,35 @@ if __name__ == "__main__":
 
 ### Sample Output
 ```
+# Case 1: Room Temperature
 Enter temperature in Celsius or 'x' to exit program: 25
 
 The average velocity or root mean square velocity of a molecule in a sample of oxygen
 at 25 degrees Celsius is 482.515 m/sec
 
+# Case 2: Freezing Point
+Enter temperature in Celsius or 'x' to exit program: 0
+
+The average velocity or root mean square velocity of a molecule in a sample of oxygen
+at 0 degrees Celsius is 461.103 m/sec
+
+# Case 3: Boiling Point
+Enter temperature in Celsius or 'x' to exit program: 100
+
+The average velocity or root mean square velocity of a molecule in a sample of oxygen
+at 100 degrees Celsius is 543.891 m/sec
+
+# Case 4: Below Absolute Zero (Error Case)
 Enter temperature in Celsius or 'x' to exit program: -300
 
 Error: Temperature cannot be below absolute zero (-273.15 Celsius)
-```
+
+# Case 5: Invalid Input
+Enter temperature in Celsius or 'x' to exit program: abc
+
+Error: Invalid input. Please enter a numeric value.
+
+# Case 6: Exit Command
+Enter temperature in Celsius or 'x' to exit program: x
+
+Exiting program...

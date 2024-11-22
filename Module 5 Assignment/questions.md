@@ -24,6 +24,16 @@ def factorial(n):
         return n * factorial(n - 1)
 ```
 
+### Sample Output
+```
+>>> factorial(4)
+24
+>>> factorial(0)
+1
+>>> factorial(5)
+120
+```
+
 ---
 
 ## Question 2: Factorial Calculator
@@ -58,6 +68,20 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+
+### Sample Output
+```
+Enter a positive integer (or 'q' to quit): 5
+The factorial of 5 is: 120
+
+Enter a positive integer (or 'q' to quit): 0
+The factorial of 0 is: 1
+
+Enter a positive integer (or 'q' to quit): abc
+Please enter a valid non-negative integer.
+
+Enter a positive integer (or 'q' to quit): q
 ```
 
 ---
@@ -95,6 +119,20 @@ if __name__ == "__main__":
     main()
 ```
 
+### Sample Output
+```
+Enter a positive integer (or 'q' to quit): 4
+The sum of the first 4 integers is: 10
+
+Enter a positive integer (or 'q' to quit): 0
+Please enter a valid positive integer.
+
+Enter a positive integer (or 'q' to quit): 3
+The sum of the first 3 integers is: 6
+
+Enter a positive integer (or 'q' to quit): q
+```
+
 ---
 
 ## Question 4: String Reversal Using Recursion
@@ -128,6 +166,21 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+
+### Sample Output
+```
+Enter a word to reverse (or 'q' to quit): alucard
+Reversed word: dracula
+
+Enter a word to reverse (or 'q' to quit): hello123
+Error: Please enter a non-empty word containing only letters.
+
+Enter a word to reverse (or 'q' to quit): python
+Reversed word: nohtyp
+
+Enter a word to reverse (or 'q' to quit): q
+Thank you for using the word reverser. Goodbye!
 ```
 
 ### Explanation
@@ -181,6 +234,13 @@ print(mirror_lambda("hello"))  # Output: hello
 print(mirror_lambda([1, 2, 3]))  # Output: [1, 2, 3]
 ```
 
+### Sample Output
+```
+5
+hello
+[1, 2, 3]
+```
+
 ---
 
 ## Question 6: Circle Area Calculator
@@ -214,6 +274,23 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+
+### Sample Output
+```
+Enter the radius of the circle (or 'q' to quit): 5
+The area of a circle with radius 5 is: 78.54
+
+Enter the radius of the circle (or 'q' to quit): 2.5
+The area of a circle with radius 2.5 is: 19.63
+
+Enter the radius of the circle (or 'q' to quit): -1
+Please enter a valid positive number for the radius.
+
+Enter the radius of the circle (or 'q' to quit): abc
+Please enter a valid positive number for the radius.
+
+Enter the radius of the circle (or 'q' to quit): q
 ```
 
 ---
@@ -250,6 +327,20 @@ if __name__ == "__main__":
     main()
 ```
 
+### Sample Output
+```
+Enter the radius of the circle (or 'q' to quit): 5
+The area of a circle with radius 5 is: 78.54
+
+Enter the radius of the circle (or 'q' to quit): 2.5
+The area of a circle with radius 2.5 is: 19.63
+
+Enter the radius of the circle (or 'q' to quit): -1
+Please enter a valid positive number for the radius.
+
+Enter the radius of the circle (or 'q' to quit): q
+```
+
 ---
 
 ## Question 8: Doubling Time Calculator
@@ -282,6 +373,18 @@ print(f"Doubling time for 1.85% APR in years using log 10 is: {round(double_time
 double_time_years = lambda ar: (math.log(2) / math.log(1 + (ar / 12))) / 12
 print("\nAnswer to Question 8c")
 print(f"Doubling time for 3% APR in years is : {round(double_time_years(0.03),1)} years")
+```
+
+### Sample Output
+```
+Answer to Question 8a
+Time in years it would take to double the money at 1.85 APR compounded monthly is: 37.5 years
+
+Answer to Question 8b
+Doubling time for 1.85% APR in years using log 10 is: 37.5 years
+
+Answer to Question 8c
+Doubling time for 3% APR in years is : 23.1 years
 ```
 
 ### Results

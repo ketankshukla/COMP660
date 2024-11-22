@@ -33,7 +33,12 @@ def greet(name):
 
 # Calling the function
 message = greet("Alice")
-print(message)  # Output: Hello, Alice!
+print(message)
+```
+
+### Sample Output
+```
+Hello, Alice!
 ```
 
 ---
@@ -71,6 +76,13 @@ custom_greeting = "Good morning"
 print(greet(user, custom_greeting))
 ```
 
+### Sample Output
+```
+Hello, Alice!
+Hi, Bob!
+Good morning, Charlie!
+```
+
 ### Key Distinction
 - Parameters are part of the function's definition.
 - Arguments are the actual values supplied to these parameters when the function is called.
@@ -106,7 +118,7 @@ famous()
 name()
 ```
 
-### Output
+### Sample Output
 ```
 Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution 
 - Albert Einstein
@@ -200,6 +212,31 @@ distance = get_valid_input("Enter the distance (m): ")
 # Calculate and display the final velocity
 final_velocity = calculate_final_velocity(initial_velocity, distance)
 print(f"The final velocity is {final_velocity} m/s.")
+```
+
+### Sample Outputs
+
+Example 1 - Ball dropped from rest:
+```
+Enter the initial velocity (m/s): 0
+Enter the distance (m): 51
+The final velocity is 31.6 m/s.
+```
+
+Example 2 - Object with initial velocity:
+```
+Enter the initial velocity (m/s): 5
+Enter the distance (m): 20
+The final velocity is 20.4 m/s.
+```
+
+Example 3 - Invalid input handling:
+```
+Enter the initial velocity (m/s): abc
+Error: Please enter a valid number.
+Enter the initial velocity (m/s): 0
+Enter the distance (m): -10
+The final velocity is 14.0 m/s.
 ```
 
 ### Example Usage
@@ -309,8 +346,44 @@ if __name__ == "__main__":
     main()
 ```
 
+### Sample Outputs
+
+Example 1 - Ball dropped from 51m:
+```
+Calculate elapsed time for an object in free fall
+Equation: t = (v - u) / a
+where t is elapsed time, v is final velocity, u is initial velocity,
+and a is acceleration due to gravity (9.8 m/s²).
+Enter the initial velocity (m/s): 0
+Enter the final velocity (m/s): 31.6
+The elapsed time is 3.2 seconds.
+```
+
+Example 2 - Object thrown downward:
+```
+Calculate elapsed time for an object in free fall
+Equation: t = (v - u) / a
+where t is elapsed time, v is final velocity, u is initial velocity,
+and a is acceleration due to gravity (9.8 m/s²).
+Enter the initial velocity (m/s): 5
+Enter the final velocity (m/s): 20
+The elapsed time is 1.5 seconds.
+```
+
+Example 3 - Invalid input handling:
+```
+Calculate elapsed time for an object in free fall
+Equation: t = (v - u) / a
+where t is elapsed time, v is final velocity, u is initial velocity,
+and a is acceleration due to gravity (9.8 m/s²).
+Enter the initial velocity (m/s): xyz
+Error: Please enter a valid number.
+Enter the initial velocity (m/s): 0
+Enter the final velocity (m/s): 10
+The elapsed time is 1.0 seconds.
+```
+
 ### Example Usage
-For the ball dropped from 51m (with final velocity 31.6 m/s):
 ```python
 initial_velocity = 0  # The ball starts at rest
 final_velocity = 31.6  # From the previous calculation

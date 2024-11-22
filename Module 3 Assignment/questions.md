@@ -27,15 +27,29 @@ for i in range(5):
         pass  # Does nothing, continues with the next line
     print(i)
 
-# Output: 0 1 2 3 4
-
 # Using continue
 for i in range(5):
     if i == 2:
         continue  # Skips the rest of the loop for this iteration
     print(i)
+```
 
-# Output: 0 1 3 4
+### Sample Output
+For pass statement:
+```
+0
+1
+2
+3
+4
+```
+
+For continue statement:
+```
+0
+1
+3
+4
 ```
 
 ### Key Differences
@@ -61,7 +75,7 @@ for i in letter:
         print(i, end="")
 ```
 
-### Output
+### Sample Output
 ```
 Hi there, This is how a pass statement works!
 ```
@@ -107,6 +121,38 @@ else:
     recommendation = f"Hi {name}, You should probably bring a sweater"
 
 print(f"\n{recommendation}")
+```
+
+### Sample Outputs
+
+For temperature less than 70°F:
+```
+What shall I wear today?
+
+Please Enter Your First Name: John
+What is Today's Temperature: 65
+
+Hi John, You should probably bring a sweater
+```
+
+For temperature equal to 70°F:
+```
+What shall I wear today?
+
+Please Enter Your First Name: Alice
+What is Today's Temperature: 70
+
+Hi Alice, It will be a warm day, T-shirt time!
+```
+
+For temperature greater than 70°F:
+```
+What shall I wear today?
+
+Please Enter Your First Name: Bob
+What is Today's Temperature: 75
+
+Hi Bob, It will be a warm day, T-shirt time!
 ```
 
 ### Screenshots
