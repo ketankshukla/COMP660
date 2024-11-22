@@ -327,3 +327,85 @@ Error: Invalid input. Please enter a numeric value.
 Enter temperature in Celsius or 'x' to exit program: x
 
 Exiting program...
+
+```
+
+## Discussion
+
+### Python Operators and Number Systems
+
+#### Question 1: Python Operators (//, %, **)
+
+The //, %, and ** operators serve different purposes in Python:
+
+1. Floor Division Operator (//)
+   - Divides two numbers and rounds down to the nearest integer
+   - Returns the integer quotient after division, discarding any remainder
+   - Example:
+     ```python
+     result = 10 // 3  # Result is 3
+     ```
+   - Explanation: 10 divided by 3 is 3.333, floor division rounds down to 3
+
+2. Modulo Operator (%)
+   - Returns the remainder after dividing the first number by the second
+   - Useful for determining if a number is divisible by another or for cyclical patterns
+   - Example:
+     ```python
+     remainder = 10 % 3  # Result is 1
+     ```
+   - Explanation: 10 divided by 3 leaves a remainder of 1
+
+3. Exponentiation Operator (**)
+   - Raises the first number to the power of the second number
+   - Example:
+     ```python
+     result = 2 ** 3  # Result is 8
+     ```
+   - Explanation: 2 raised to the power of 3 equals 8
+
+#### Question 2: Number Systems in Python
+
+Python supports multiple number systems beyond decimal:
+
+1. Binary (Base 2)
+   - Uses only 0s and 1s
+   - Prefix: 0b or 0B
+   - Example:
+     ```python
+     # Binary representation
+     binary_num = 0b1010  # Decimal value: 10
+     print(binary_num)    # Output: 10
+     
+     # Converting decimal to binary
+     decimal_number = 10
+     binary_representation = bin(decimal_number)  # Output: '0b1010'
+     ```
+
+2. Octal (Base 8)
+   - Uses digits 0-7
+   - Prefix: 0o or 0O
+   - Example:
+     ```python
+     # Octal representation
+     octal_num = 0o12    # Decimal value: 10
+     print(octal_num)    # Output: 10
+     
+     # Converting decimal to octal
+     decimal_number = 10
+     octal_representation = oct(decimal_number)  # Output: '0o12'
+     ```
+
+3. Hexadecimal (Base 16)
+   - Uses digits 0-9 and letters A-F
+   - Prefix: 0x or 0X
+   - Example:
+     ```python
+     # Hexadecimal representation
+     hex_num = 0xA       # Decimal value: 10
+     print(hex_num)      # Output: 10
+     
+     # Converting decimal to hexadecimal
+     decimal_number = 10
+     hex_representation = hex(decimal_number)  # Output: '0xa'
+     ```
