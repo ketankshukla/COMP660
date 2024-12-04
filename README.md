@@ -1,188 +1,75 @@
-# COMP660 Python Programming Course 
+# <span style="font-size: 48px;">🐍 COMP660 Python Programming Course</span>
 
-## Overview 
-This repository contains assignments and documentation for the COMP660 Python Programming course. The course covers fundamental to advanced Python programming concepts through practical assignments and exercises.
+<div style="background-color: #000000; padding: 20px; font-size: 24px;">
 
-## Course Structure 
-The course is divided into seven modules, each focusing on different aspects of Python programming:
+## <span style="font-size: 36px;">📚 Course Overview</span>
+This comprehensive Python programming course covers fundamental to advanced concepts through practical assignments and hands-on exercises.
 
-### [Module 1: Introduction to Python Programming](documentation/module_documentation/module_1.md)
-- Python environment setup
-- Basic syntax and structure
-- Variables and data types
-- Mathematical operations
+## <span style="font-size: 36px;">🗂️ Module Structure</span>
+| Module | Topics | Key Concepts |
+|--------|---------|-------------|
+| `Module 1` | <span style="color: #00ffff;">Introduction to Python</span> | Environment setup, Basic syntax, Data types |
+| `Module 2` | <span style="color: #ffff00;">I/O Operations</span> | User input, Type conversion, String formatting |
+| `Module 3` | <span style="color: #00ffff;">Control Flow</span> | Conditionals, Loops, String manipulation |
+| `Module 4` | <span style="color: #ffff00;">Physics Calculations</span> | Formulas, Math operations, Scientific formatting |
+| `Module 5` | <span style="color: #00ffff;">Functions & Recursion</span> | Function definitions, Recursive algorithms |
+| `Module 6` | <span style="color: #ffff00;">Text Processing</span> | ASCII handling, HTML manipulation |
+| `Module 7` | <span style="color: #00ffff;">Scientific Computing</span> | Number systems, High-precision calculations |
 
-### [Module 2: Input/Output and Basic Operations](documentation/module_documentation/module_2.md)
-- User input/output operations
-- Type conversion
-- String formatting
-- Basic arithmetic operations
+## <span style="font-size: 36px;">🛠️ Setup Instructions</span>
+```bash
+# Clone the repository
+git clone https://github.com/ketankshukla/COMP660.git
 
-### [Module 3: Control Flow and Decision Making](documentation/module_documentation/module_3.md)
-- Conditional statements
-- Loop structures
-- Pass statement
-- String manipulation
+# Navigate to project directory
+cd COMP660
 
-### [Module 4: Physics Calculations](documentation/module_documentation/module_4.md)
-- Physics formulas implementation
-- Mathematical calculations
-- Input validation
-- Scientific output formatting
-
-### [Module 5: Functions and Recursion](documentation/module_documentation/module_5.md)
-- Function definitions
-- Recursive algorithms
-- Lambda functions
-- Mathematical computations
-
-### [Module 6: String Manipulation and Text Processing](documentation/module_documentation/module_6.md)
-- ASCII code handling
-- String parsing and extraction
-- HTML content manipulation
-- Text formatting and validation
-
-### [Module 7: Number Systems and Scientific Calculations](documentation/module_documentation/module_7.md)
-- Mathematical constants
-- Binary number systems
-- High-precision calculations
-- Scientific computations
-
-## Project Structure 
-```
-COMP660/
-├── Module 1 Assignment/     # Introduction to Python
-├── Module 2 Assignment/     # I/O and Basic Operations
-├── Module 3 Assignment/     # Control Flow
-├── Module 4 Assignment/     # Physics Calculations
-├── Module 5 Assignment/     # Functions and Recursion
-├── Module 6 Assignment/     # String Processing
-├── Module 7 Assignment/     # Scientific Calculations
-└── documentation/          # Comprehensive docs
-    └── module_documentation/
-        ├── module_1.md     # Module 1 Documentation
-        ├── module_2.md     # Module 2 Documentation
-        ├── module_3.md     # Module 3 Documentation
-        ├── module_4.md     # Module 4 Documentation
-        ├── module_5.md     # Module 5 Documentation
-        ├── module_6.md     # Module 6 Documentation
-        └── module_7.md     # Module 7 Documentation
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-## Getting Started 
+## <span style="font-size: 36px;">📝 Assignment Structure</span>
+Each module contains:
+- <span style="color: #00ffff;">Assignment instructions (.pdf)</span>
+- <span style="color: #ffff00;">Solution code (.py)</span>
+- <span style="color: #00ffff;">Test cases</span>
+- <span style="color: #ffff00;">Additional resources</span>
 
-### System Requirements 💻
-#### Hardware Requirements
-- Processor: 2.0 GHz dual-core or better
-- RAM: 4GB minimum, 8GB recommended
-- Storage: 1GB free space
+## <span style="font-size: 36px;">🎯 Learning Objectives</span>
+1. Master Python fundamentals and syntax
+2. Develop problem-solving skills
+3. Implement mathematical and scientific calculations
+4. Handle text processing and data manipulation
+5. Create efficient and maintainable code
 
-#### Software Requirements
-- Python 3.8 or higher
-- Git version control
-- Operating System:
-  * Windows 10/11
-  * Linux (Ubuntu 20.04+)
-  * macOS (10.15+)
+## <span style="font-size: 36px;">📊 Course Progress</span>
+- [x] Module 1: Introduction to Python
+- [x] Module 2: Input/Output Operations
+- [x] Module 3: Control Flow
+- [x] Module 4: Physics Calculations
+- [x] Module 5: Functions and Recursion
+- [x] Module 6: Text Processing
+- [x] Module 7: Scientific Computing
 
-### Prerequisites
-- Python 3.x
-- Text editor or IDE (e.g., PyCharm, VS Code)
-- Basic understanding of programming concepts
+## <span style="font-size: 36px;">🔍 Resources</span>
+- [Python Official Documentation](https://docs.python.org/)
+- [Course Materials](documentation/module_documentation/)
+- [Assignment Guidelines](documentation/assignment_guidelines.md)
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone [repository-url]
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd COMP660
-   ```
-3. (Optional) Create a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-4. Run the Python files:
-   ```bash
-   python "Module X Assignment/Question Y.py"
-   ```
+## <span style="font-size: 36px;">💡 Tips for Success</span>
+1. Read module documentation thoroughly
+2. Test code with provided test cases
+3. Follow Python best practices
+4. Maintain clean and documented code
+5. Submit assignments on time
 
-## Documentation 
-Each module contains detailed documentation including:
-- Learning objectives
-- Assignment descriptions
-- Implementation details
-- Code examples
-- Best practices
-- Common issues and solutions
-
-## Best Practices 
-1. Code Organization
-   - Clear file structure
-   - Consistent naming conventions
-   - Proper documentation
-
-2. Implementation
-   - Follow Python style guide (PEP 8)
-   - Include comments and docstrings
-   - Write modular, reusable code
-
-3. Documentation
-   - Detailed module descriptions
-   - Clear assignment instructions
-   - Comprehensive examples
-
-## Troubleshooting ⚠️
-### Common Issues and Solutions
-
-#### 1. Python Version Mismatch
-**Problem**: Code fails with syntax errors or unsupported features  
-**Solution**: 
-- Verify Python version (3.8+ recommended)
-- Update Python if needed
-- Use a virtual environment for isolation
-
-#### 2. Module Import Errors
-**Problem**: Unable to import required modules  
-**Solution**:
-- Check if Python is in system PATH
-- Verify file/directory names match imports
-- Run from correct directory
-
-#### 3. IDE Configuration
-**Problem**: IDE not recognizing Python interpreter  
-**Solution**:
-- Configure project interpreter in IDE settings
-- Select correct Python version
-- Restart IDE after configuration changes
-
-### Getting Help 💡
-If you encounter issues:
-1. Check module documentation
-2. Review assignment requirements
-3. Search Python's official documentation
-4. Consult course instructors or TAs
-
-## Contributing 
+## <span style="font-size: 36px;">🤝 Contributing</span>
+While this is a course repository, suggestions for improvements are welcome:
 1. Fork the repository
 2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## Resources 
-- [Python Official Documentation](https://docs.python.org/3/)
-- [Python Style Guide (PEP 8)](https://www.python.org/dev/peps/pep-0008/)
-- [Python Tutorial](https://docs.python.org/3/tutorial/)
-
-## License 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments 
-- Course instructors and teaching assistants
-- Python community resources
-- Open source contributors
+3. Submit a pull request
 
 ---
-Last updated: [Current Date]
+<span style="color: #00ffff; font-size: 32px;">❤️ Generated with love by Ketan Shukla ❤️</span>
+</div>
