@@ -84,6 +84,9 @@ pip install -r requirements.txt
 
 ## <span style="font-size: 36px;">💻 Development</span>
 
+### Core Functionality
+| Function | Description |
+|----------|-------------|
 ### Functions
 - `calculate_final_velocity` (Module 4\Question 4.py)
 - `get_valid_input` (Module 4\Question 4.py)
@@ -110,6 +113,27 @@ pip install -r requirements.txt
 - `calculate_rms_velocity` (Module 7\Question 3.py)
 - `get_temperature_input` (Module 7\Question 3.py)
 - `main` (Module 7\Question 3.py)
+
+### Configuration Management
+| Function | Description |
+|----------|-------------|
+| `ConfigLoader.load_config` | <span style="color: #00ffff;">Loads and merges system and project configurations</span> |
+| `ConfigLoader.__init__` | <span style="color: #ffff00;">Initializes paths for configuration files</span> |
+
+### README Generation
+| Function | Description |
+|----------|-------------|
+| `ReadmeGenerator.generate_readme_content` | <span style="color: #00ffff;">Generates formatted README content from template</span> |
+| `ReadmeGenerator._format_file_structure` | <span style="color: #ffff00;">Formats project directory structure</span> |
+| `ReadmeGenerator._analyze_code` | <span style="color: #00ffff;">Analyzes code files for documentation</span> |
+| `ReadmeGenerator.select_specific_repo` | <span style="color: #ffff00;">Interactive repository selection</span> |
+
+### Git Operations
+| Function | Description |
+|----------|-------------|
+| `ReadmeGenerator.run_command` | <span style="color: #00ffff;">Executes Git and system commands</span> |
+| `ReadmeGenerator.clone_repository` | <span style="color: #ffff00;">Clones and configures repositories</span> |
+| `ReadmeGenerator.cleanup` | <span style="color: #00ffff;">Removes temporary files and directories</span> |
 
 ## <span style="font-size: 36px;">🧪 Testing</span>
 ```bash
