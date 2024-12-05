@@ -79,7 +79,6 @@ pip install -r requirements.txt
   📄 Question 2.py
   📄 Question 3.py
   📄 questions.md
-📄 README.md
 ```
 
 ## <span style="font-size: 36px;">💻 Development</span>
