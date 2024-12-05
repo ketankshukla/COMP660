@@ -94,26 +94,26 @@ pip install -r requirements.txt
 | `Module 4\Question 5.py:get_valid_input` | Get valid numerical input from the user |
 | `Module 4\Question 5.py:main` | Main program function that:
 1 |
-| `Module 5\Question 2.py:factorial` | No description available |
-| `Module 5\Question 2.py:main` | No description available |
-| `Module 5\Question 3.py:main` | No description available |
-| `Module 5\Question 3.py:sum_nint` | No description available |
-| `Module 5\Question 4.py:main` | No description available |
-| `Module 5\Question 4.py:semordnilap` | No description available |
-| `Module 5\Question 6.py:area_circle` | No description available |
-| `Module 5\Question 6.py:main` | No description available |
-| `Module 5\Question 7.py:main` | No description available |
+| `Module 5\Question 2.py:factorial` | Handles conditional logic takes n as input. |
+| `Module 5\Question 2.py:main` | Function to main. |
+| `Module 5\Question 3.py:main` | Function to main. |
+| `Module 5\Question 3.py:sum_nint` | Handles conditional logic takes n as input. |
+| `Module 5\Question 4.py:main` | Function to main. |
+| `Module 5\Question 4.py:semordnilap` | Handles conditional logic processes aString and index. |
+| `Module 5\Question 6.py:area_circle` | Takes radius as input. |
+| `Module 5\Question 6.py:main` | Function to main. |
+| `Module 5\Question 7.py:main` | Function to main. |
 | `Module 6\Question 4.py:add_html_tags` | Wrap the given text with HTML opening and closing tags |
 | `Module 6\Question 5.py:get_name_input` | Get and validate a name input from the user |
 | `Module 6\Question 6.py:abbreviate_middle_name` | Format a full name by abbreviating middle names |
 | `Module 6\Question 7.py:check_famous_individual` | Check if a given name appears in the list of famous individuals |
-| `Module 7\Question 1.py:format_tau` | No description available |
-| `Module 7\Question 2.py:calculate_integer_range` | No description available |
-| `Module 7\Question 2.py:format_number` | No description available |
-| `Module 7\Question 2.py:main` | No description available |
-| `Module 7\Question 3.py:calculate_rms_velocity` | No description available |
-| `Module 7\Question 3.py:get_temperature_input` | No description available |
-| `Module 7\Question 3.py:main` | No description available |
+| `Module 7\Question 1.py:format_tau` | Function to format tau. |
+| `Module 7\Question 2.py:calculate_integer_range` | Takes num_bytes as input. |
+| `Module 7\Question 2.py:format_number` | Handles conditional logic processes number and use_scientific. |
+| `Module 7\Question 2.py:main` | Function to main. |
+| `Module 7\Question 3.py:calculate_rms_velocity` | Handles conditional logic takes temp_celsius as input. |
+| `Module 7\Question 3.py:get_temperature_input` | Handles conditional logic takes prompt as input. |
+| `Module 7\Question 3.py:main` | Function to main. |
 
 ### Configuration Management
 | Function | Description |
